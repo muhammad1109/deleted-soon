@@ -1,0 +1,14 @@
+Judul : RANCANG BANGUN APLIKASI SINKRONISASI
+BIDIREKSIONAL ANTAR LEARNING MANAGEMENT
+SYSTEM BERBASIS MOODLE
+
+Stories : Moodle merupakan LMS (Learning Management System) yang memiliki fungsi sebagai media pembelajaran virtual. Guru/pembuat kursus dapat menyediakan berkas pelajaran dan tugas untuk siswanya (dalam bentuk teks, foto, maupun video), dan siswa dapat mengakses berkas tersebut dan dapat melakukan submission tugas melalui moodle.
+Permasalahan dari user story : Para guru/pembuat kursus belum dapat melakukan pertukaran data (berkas) kepada guru yang lainnya. Sehingga guru harus melakukan copy & upload untuk berkas yang sama, pada tempat atau kelas yang berbeda.
+Penyelesaian : Dengan membangun aplikasi sinkronisasi bidireksional antar LMS, maka guru dapat bertukar berkas dengan mudah. Sehingga penggunaan LMS akan lebih efektif. Assembla SVN digunakan sebagai aplikasi kolaboratif untuk kasus ini.
+Skema sistem : Basis data pada Moodle, yang meliputi isi dari kursus, akan diunduh oleh aplikasi. Setelah proses ini, pengajar (pembuat kursus) dapat memilih kursus mana saja yang akan dibagi. Setelah dipilih maka kursus tersebut akan segera diunggah ke SVN. Basis data dari kursus-kursus yang telah dibagi ke SVN akan dapat dilihat pada aplikasi, diunduh dan juga dapat diperbarui yang kemudian diunggah kembali ke SVN sebagai contribution course.
+
+Pertanyaan : Target sistem? Syarat khusus pemangku kepentingan?
+Jawaban : 
+
+Pertanyaan : apa solusi yang disediakan penulis untuk permasalahan pembelajaran yang memerlukan praktek? 201810370311155
+jawaban : penelitian tidak menyediakan solusi, namun menyediakan tingkat ketidakpuasan pengguna terhadap lms.
